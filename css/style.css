@@ -1,0 +1,295 @@
+.back-layer {
+    background-image: url(../images/satellite_def1.png);
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+body {
+    /*    background-color: black;*/
+    color: #a09c9c;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: "Inter", "Helvetica", "Arial", sans-serif;
+    line-height: 1.6;
+
+}
+
+
+svg g {
+    opacity: 1;
+}
+
+svg image {
+    display: none;
+}
+
+svg #casanova {
+    opacity: inherit;
+}
+
+svg #oltrisarco {
+    opacity: inherit;
+}
+
+svg #donbosco {
+    opacity: inherit;
+}
+
+svg #novacella {
+    opacity: inherit;
+}
+
+svg #gries {
+    opacity: inherit;
+}
+
+svg #rencio {
+    opacity: inherit;
+}
+
+
+
+
+.introduction {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+
+.conclusion {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+
+p {
+    position: relative;
+    top: 50%;
+    z-index: 10;
+    filter: 0;
+    transform: translateY(-50%);
+    max-width: 600px;
+    font-weight: 200;
+    margin: auto;
+    color: floralwhite;
+}
+
+.map {
+    opacity: 0;
+    transition: all 1s;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    width: 100vw;
+}
+
+.map svg g {
+    transition: all 1s;
+}
+
+
+.empty {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.caption {
+    position: relative;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    transition: opacity 1s;
+}
+
+.caption p {
+    margin: auto;
+    width: 80vw;
+    caption-side: top;
+    max-width: 700px;
+}
+
+.caption p span {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.cover {
+    text-align: center;
+    /*    background-color: black;*/
+}
+
+.cover .content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+#casanova-foto {
+    background-image: url('../images/casanova.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: opacity(100%);
+}
+
+
+#oltrisarco-foto {
+    background-image: url('../images/oltrisarco.png');
+    background-size: ;
+    background-repeat: no-repeat;
+    filter: opacity(100%);
+}
+
+
+#donbosco-foto {
+    background-image: url('../images/pifferi.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: opacity(100%);
+}
+
+
+#novacella-foto {
+    background-image: url('../images/venice.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: opacity(100%);
+}
+
+
+#gries-foto {
+    background-image: url('../images/gries.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: opacity(100%);
+}
+
+
+#rencio-foto {
+    background-image: url('../images/centro.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: opacity(100%);
+}
+
+
+#main-title {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/satellite_def1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: lightcoral;
+}
+
+#main-title {
+    position: absolute;
+    top: 0;
+    z-index: 11;
+}
+
+#main-title .background {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+#main-title .titles {
+    position: relative;
+    top: 50%;
+    z-index: 10;
+    color: lightcoral;
+    filter: 0;
+    transform: translateY(-50%);
+}
+
+#conclusion-foto {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/satellite_def1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: lightcoral;
+}
+
+.conclu {
+    color: white;
+    font: 'Inter';
+}
+
+.empty-100 {
+    height: 100vh;
+}
+
+.empty-150 {
+    height: 150vh;
+}
+
+.empty-200 {
+    height: 200vh;
+}
+
+.intro {
+    color: white;
+    font: 'Inter';
+}
+
+
+
+.subtitle {
+    font-weight: 400;
+    font-size: 13px;
+    color:floralwhite;
+}
+
+strong {
+    color:#E44647;
+    font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+h5 {
+    color: floralwhite;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Times';
+    margin-bottom: 100px;
+}
+
+h1 {
+    color:#E44647;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size:30px;
+}

@@ -1,0 +1,96 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+        .main-title,
+    .titles {
+        padding-left:40px;
+        padding-right:40px;
+        position: relative;
+        
+}
+
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 20px;
+        max-width: 400px;
+    }
+
+    p {
+        font-size: 18px;
+        max-width: 80%;
+        width: 80%;
+        letter-spacing: 0.6px;
+
+    }
+
+    .caption p {
+        position: inherit;
+        width: 80%;
+        line-height: 1.2;
+        letter-spacing: 0.6px;
+    }
+        
+    }
+
+
+#casanova-foto {
+    background-image: url('../images/casanova.png');
+    background-size:100%; 
+/*    background-repeat: no-repeat;*/
+    filter: opacity(100%);
+}
+
+
+#oltrisarco-foto {
+    background-image: url('../images/oltrisarco.png');
+    background-size: 100%;
+/*    background-repeat: no-repeat;*/
+    filter: opacity(100%);
+}
+
+
+#donbosco-foto {
+    background-image: url('../images/pifferi.png');
+    background-size: 100%;
+/*    background-repeat: no-repeat;*/
+    filter: opacity(100%);
+}
+
+
+#novacella-foto {
+    background-image: url('../images/venice.png');
+    background-size: 100%;
+/*    background-repeat: no-repeat;*/
+    filter: opacity(100%);
+}
+
+
+#gries-foto {
+    background-image: url('../images/gries.png');
+    background-size: 100%;
+/*    background-repeat: no-repeat;*/
+    filter: opacity(100%);
+}
+
+
+#rencio-foto {
+    background-image: url('../images/centro.png');
+    background-size: 100%;
+/*    background-repeat: no-repeat;*/
+    filter: opacity(100%);
+}
+
+        
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .back-layer,
+    .body {
+        width:auto;
+        float:none;
+    }
+}
+
+
