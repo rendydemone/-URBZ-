@@ -90,7 +90,7 @@ p {
 
 .map {
     opacity: 0;
-    transition: all 1s;
+    transition: all 4s;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -99,7 +99,7 @@ p {
 }
 
 .map svg g {
-    transition: all 1s;
+    transition: all 1.5s;
 }
 
 
@@ -115,7 +115,7 @@ p {
     width: 100vw;
     height: 100vh;
     background-color: transparent;
-    transition: opacity 1s;
+    transition: opacity 2s;
 }
 
 .caption p {
