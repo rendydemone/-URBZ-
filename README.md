@@ -1,2 +1,2 @@
-# -URBZ-
+# URBZ
 a journey in Bolzano 
